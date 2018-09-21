@@ -9,8 +9,8 @@ import java.sql.Statement;
 
 public class GerenciadorDeConexao {
 	private static final String URL= "jdbc:mysql://127.0.0.1:3306/Midia?zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false";
-	private static final String USUARIO = "root";
-	private static final String SENHA = "3Sjkp60$";
+	private static final String USUARIO = "";
+	private static final String SENHA = "";
 
 	public static Connection getConnection() throws DaoException{
 		Connection connection = null;
